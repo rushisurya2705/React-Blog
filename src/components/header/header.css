@@ -16,10 +16,18 @@
   font-size: 20px;
 }
 
+.headerTitleSm:hover {
+  color: black;
+}
+
 .headerTitleLg {
   position: absolute;
   top: 20%;
   font-size: 100px;
+}
+
+.headerTitleLg:hover {
+  color: black;
 }
 
 .headerImg {

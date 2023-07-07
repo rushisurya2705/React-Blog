@@ -33,7 +33,7 @@ export default function Settings() {
           <label>Password</label>
           <input type="password" placeholder="Password" name="password" />
           <button className="settingsSubmitButton" type="submit">
-            Update
+            UPDATE
           </button>
         </form>
       </div>

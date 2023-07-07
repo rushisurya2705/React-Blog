@@ -7,8 +7,8 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
-          src="https://img.freepik.com/premium-photo/portrait-handsome-young-man-circle-men-s-beauty-fashion_743855-20208.jpg?w=1060"
-          alt=""
+          src="https://images.pexels.com/photos/103123/pexels-photo-103123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="profile pic"
         />
         <p>
           Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
@@ -53,10 +53,15 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW US</span>
         <div className="sidebarSocial">
-          <i className="sidebarIcon fab fa-facebook-square"></i>
-          <i className="sidebarIcon fab fa-instagram-square"></i>
-          <i className="sidebarIcon fab fa-pinterest-square"></i>
-          <i className="sidebarIcon fab fa-twitter-square"></i>
+          <a href="https://github.com/rushisurya2705" class="sidebarIcon">
+            <i className="sidebarIcon fab fa-github-square"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/rushikesh-suryavanshi-028921221/" class="sidebarIcon">
+            <i className="sidebarIcon fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/rushisurya2705/" class="sidebarIcon">
+            <i className="sidebarIcon fab fa-instagram-square"></i>
+          </a>
         </div>
       </div>
     </div>

@@ -9,17 +9,39 @@
   z-index: 999;
   font-family: "Josefin Sans", sans-serif;
 }
+.topLeft-Left {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  background-color: #444;
+  margin-left: 10px;
+}
+
+.topLeft-Left:hover {
+  color: black;
+  background-color: white;
+}
 
 .topLeft,
 .topRight {
-  flex: 3;
+  flex: 2;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .topIcon {
-  font-size: 20px;
+  font-size: 30px;
   margin-right: 10px;
   color: #444;
   cursor: pointer;
@@ -45,7 +67,7 @@
 }
 
 .topListItem:hover{
-    color: gray;
+    color: grey;
 }
 
 .topImg {

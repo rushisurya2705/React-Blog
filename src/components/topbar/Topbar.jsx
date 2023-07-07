@@ -5,11 +5,21 @@ export default function Topbar() {
   const user = true;
   return (
     <div className="top">
+      <div className="topLeft-Left">  
+      <Link className="link" to="/">
+        <span className="logo">BLOGIFY</span>
+      </Link>
+      </div>
       <div className="topLeft">
-        <i className="topIcon fab fa-facebook-square"></i>
-        <i className="topIcon fab fa-instagram-square"></i>
-        <i className="topIcon fab fa-pinterest-square"></i>
-        <i className="topIcon fab fa-twitter-square"></i>
+        <a href="https://github.com/rushisurya2705" class="topIcon">
+          <i className="topIcon fab fa-github-square"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rushikesh-suryavanshi-028921221/" class="topIcon">
+          <i className="topIcon fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/rushisurya2705/" class="topIcon">
+          <i className="topIcon fab fa-instagram-square"></i>
+        </a>
       </div>
       <div className="topCenter">
         <ul className="topList">
@@ -18,7 +28,11 @@ export default function Topbar() {
               HOME
             </Link>
           </li>
-          <li className="topListItem">ABOUT</li>
+          <li className="topListItem">
+            <Link className="link" to="/settings">
+              ABOUT
+            </Link>
+          </li>
           <li className="topListItem">CONTACT</li>
           <li className="topListItem">
             <Link className="link" to="/write">

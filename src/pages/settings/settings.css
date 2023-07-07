@@ -83,11 +83,11 @@
 
 .settingsSubmitButton {
   align-self: center;
-  width: 150px;
-  border: none;
+  width: 100px;
+  border: 1px solid black;
   border-radius: 10px;
-  color: white;
-  background-color: teal;
+  color: black;
+  background-color: white;
   padding: 10px;
   margin-top: 20px;
   cursor: pointer;
@@ -97,5 +97,6 @@
 }
 
 .settingsSubmitButton:hover {
-  background-color: rgb(1, 114, 114);
+  color: white;
+  background-color: #4375e8;
 }
